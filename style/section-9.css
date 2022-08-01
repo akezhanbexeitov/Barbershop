@@ -1,0 +1,195 @@
+.section-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/section9-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -150px;
+}
+
+.section9-block {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+.section9-call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 60px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section9-call h2, .section9-request h2 {
+    color: #FFF;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.section9-call a {
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.section9-call a:hover {
+    color: #c59d5f;
+}
+
+.section9-call p {
+    color: #FFF;
+    padding: 30px 0;
+    border-top: 1px solid #c59d5f;
+    border-bottom: 1px solid #c59d5f;
+}
+
+.section9-request {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    padding: 60px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section9-request form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 55%;
+}
+
+.section9-request form input {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    padding: 10px 11px;
+    width: 60%;
+    color: #FFF;
+}
+
+.section9-request form input::placeholder {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.section9-request form button {
+    width: 35%;
+    background-color: #c59d5f;
+    border: 1px solid #c59d5f;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 8px 12px;
+    line-height: 20px;
+    transition: 0.5s;
+}
+
+.section9-request form button:hover {
+    background-color: transparent;
+    border: 1px solid #c59d5f;
+    color: #c59d5f;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .section9-block {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-9 {
+        height: 400px;
+    }
+
+    .section9-block {
+        padding: 50px 0;
+    }
+
+    .section9-call {
+        padding: 30px;
+        width: 80%;
+    }
+
+    .section9-call h2 {
+        font-size: 36px;
+    }
+
+    .section9-call p {
+        padding: 15px 0;
+    }
+
+    .section9-call a {
+        font-size: 14px;
+    }
+
+    .section9-request {
+        padding: 20px;
+        width: 80%;
+    }
+
+    .section9-request h2 {
+        font-size: 36px;
+    }
+
+    .section9-request form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-9 {
+        height: 350px;
+        background-position: -150px;
+    }
+
+    .section9-block {
+        padding: 30px 0;
+    }
+
+    .section9-block {
+        width: 95%;
+    }
+
+    .section9-call {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section9-call h2 {
+        font-size: 28px;
+    }
+
+    .section9-call p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section9-request {
+        width: 100%;
+    }
+
+    .section9-request h2 {
+        font-size: 28px;
+    }
+
+    .section9-request form {
+        width: 100%;
+    }
+}

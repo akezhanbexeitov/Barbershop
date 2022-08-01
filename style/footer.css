@@ -1,0 +1,61 @@
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.side-button-up a {
+    color: #FFF;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: #c59d5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.side-button-up a:hover {
+    background-color: #989da2;
+}
+
+.side-button-up i {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer p {
+        font-size: 13px;
+    }
+
+    .side-button-up a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .side-button-up i  {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .side-button-up a {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+

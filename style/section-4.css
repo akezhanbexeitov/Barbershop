@@ -1,0 +1,255 @@
+.section-4 {
+    background-image: url(../img/section4-background.jpeg);
+    width: 100%;
+    height: 782.19px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+}
+
+.section4-block {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.section4-top-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4-txt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4-txt1 h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section4-txt1 span {
+    color: #C49D5F;
+}
+
+.section4-txt1 p {
+    text-align: center;
+    width: 50%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.team-img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-img-container img {
+    border-bottom: 3px solid #181818;
+    box-sizing: initial;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.team-img-container img:first-child {
+    border-bottom: 3px solid #C49D5F;
+}
+
+.team-img-container img:hover {
+    border-bottom: 3px solid #C49D5F;
+}
+
+.section4-bottom-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.section4-txt2 {
+    color: white;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.section4-txt2:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 150px;
+    border-right:1px solid #C59D5F;
+}
+
+.section4-txt2 h2 {
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    line-height: 2.1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section4-txt2 p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+.section4-txt2 button {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid #C49D5F;
+    margin-top: 20px;
+    padding: 13px 0;
+    width: 40%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.section4-txt2 button:hover {
+    background-color: #C49D5F;
+} 
+
+.section4-links a {
+    color: white;
+    transition: 0.5s;
+}
+
+.section4-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+
+.section4-links a:hover {
+    color: #C49D5F;
+}
+
+@media screen and (max-width: 1024px) {
+    .section4-bottom-section {
+        width: 70%;
+    }
+
+    .section4-txt2 {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-4 {
+        height: 480px;
+        background-position: -200px;
+    }
+
+    .section4-block {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .section4-top-section h2 {
+        font-size: 36px;
+    }
+
+    .section4-top-section p {
+        width: 90%;
+        font-size: 11px;
+    }
+
+    .team-img-container img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .section4-bottom-section img {
+        width: 140.66px;
+        height: 140.66px;
+    }
+
+    .section4-txt2 h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .section4-txt2 p {
+        font-size: 11px;
+    }
+
+    .section4-links i {
+        font-size: 14px;
+    }
+
+    .section4-txt2 button {
+        margin-top: 8px;
+    }
+    
+    .section4-txt2:before {
+        top: -6px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-4 {
+        height: 670px;
+    }
+
+    .section4-bottom-section {
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .section4-bottom-section img {
+        width: 200px;
+        height: 200px;
+        margin: 0 30px 20px 30px;
+    }
+
+    .section4-txt2 {
+        width: 80%;
+    }
+
+    .section4-txt2 h2 {
+        font-size: 22px;
+    }
+
+    .section4-txt2 p {
+        font-size: 12px;
+    }
+
+    .section4-txt2 button {
+        font-size: 11px;
+        padding: 9px;
+    }
+
+    .section4-links {
+        width: 20%;
+    }
+
+    .section4-txt2:before {
+        top: -6px;
+        height: 120px;
+    }
+}
